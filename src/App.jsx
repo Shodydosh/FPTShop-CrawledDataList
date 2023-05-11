@@ -92,7 +92,7 @@ function App() {
                         })}
                     />
                 </Header>
-                <Content className="bg-gray-900" style={{ padding: '0 50px' }}>
+                <Content className="bg-gray-900 min-h-screen" style={{ padding: '0 50px' }}>
                     <ProductMain productList={productList}></ProductMain>
                 </Content>
                 <Footer className="bg-gray-950 text-gray-50" style={{ textAlign: 'center' }}>
